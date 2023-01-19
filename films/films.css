@@ -1,0 +1,33 @@
+.moviesection {
+    max-width: 900px;
+    text-transform: uppercase;
+    padding-left: 10%;
+    color: white;
+}
+.moviesimg .myimg img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+.moviesimg {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    max-width: max-content;
+    padding-left: 5px;
+}
+.moviescontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.moviescontainer {
+    height: max-content;
+    width: max-content;
+}
+hr.rounded {
+    border-top: 3px solid red;
+    border-radius: 5px;
+}
+body {
+    background-color: black;
+}

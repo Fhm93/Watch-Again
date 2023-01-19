@@ -1,0 +1,33 @@
+.newsection {
+    max-width: 900px;
+    text-transform: uppercase;
+    padding-left: 10%;
+    color: white;
+}
+hr.rounded {
+    border-top: 3px solid red;
+    border-radius: 5px;
+}
+.newsimg .myimg img {
+    object-fit: cover;
+    border-radius: 5px;
+}
+.newsimg {
+    float: left;
+    width: 30%;
+    padding: 15px;
+    max-width: max-content;
+    padding-left: 5px;
+}
+.newscontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.newscontainer {
+    height: max-content;
+    width: max-content;
+}
+body{
+    background-color: black;
+}
